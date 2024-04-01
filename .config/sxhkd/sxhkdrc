@@ -1,0 +1,187 @@
+
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + t
+	kitty
+
+# browser
+super + b
+	flatpak run org.mozilla.firefox
+# program launcher
+super + p
+	rofi -show drun
+#super + shift + p
+#	rofi -lines 10 -padding 0 -show search -modi search:~/bin/rofi-web-search.py -i -p "Search: "
+# change inner gaps
+super + {_, shift +} g
+    { bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) + 10 )), \
+    [ $(bspc config -d focused window_gap) -ge 10 ] && \
+    bspc config -d focused window_gap $(( $(bspc config -d focused window_gap) - 10 )) }
+# chfnge keyboard layout
+super + space
+  {setxkbmap ru, setxkbmap us}
+
+# Изменить громкость
+#Volume Control
+XF86AudioLowerVolume
+	amixer set Master 5%-
+XF86AudioRaiseVolume
+	amixer set Master 5%+
+XF86AudioMute
+        amixer set Master toggle
+# Яркость 
+ 
+XF86MonBrightnessDown
+	brightnessctl set 5%-
+
+XF86MonBrightnessUp
+	brightnessctl set 5%+ 
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# quit/restart bspwm
+super + alt + {q,r}
+	bspc {quit,wm -r}i
+
+# Файловый менеджер
+super + f
+	nautilus
+
+super + shift + f
+	rofi -show filebrowser
+
+# close and kill
+super + {_,shift + }q
+	bspc node -{c,k}
+
+# Переключиться между режимом тайлинга и приложением на полный экран 
+super + m
+	bspc desktop -l next
+
+
+#
+# state/flags
+#
+
+# Toggle fullscreen/floating state
+super + shift + m
+  bspc node -t \~fullscreen
+super + y
+  bspc node -t \~floating
+super + shift + t
+  bspc node -t \~tiled
+
+# set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+#
+# focus/swap
+#
+super + o
+	bspc node @parent -R 90 to rotate on parent 
+# focus the node in the given direction
+super + {_,alt + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous node in the current desktop
+super + {_,shift + }c
+	bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+#super + shift + {h,j,k,l}
+	#bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# resize windows
+super + shift + {h,j,k,l}
+    {bspc node @parent/second -z left -20 0; \
+    bspc node @parent/first -z right -20 0, \
+    bspc node @parent/second -z top 0 +20; \
+    bspc node @parent/first -z bottom 0 +20, \
+    bspc node @parent/first -z bottom 0 -20; \
+    bspc node @parent/second -z top 0 -20, \
+    bspc node @parent/first -z right +20 0; \
+    bspc node @parent/second -z left +20 0}
+
+# contract a window by moving one of its side inward
+super + shift + alt + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+	# -------------- take screenshots ------------- #
+{shift + ,_} Print
+  scrot {--select,_} '%F_%H-%M-%S.png' -e 'mv $f ~/Pictures/screenshots ' && notify-send 'Screenshot captured'
+
+    #--------------- Controls ----------------------#
+
+#Volume Capacity
+{XF86AudioRaiseVolume, XF86AudioLowerVolume}
+	/usr/bin/pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo {+10%, -10%};
+
+XF86AudioMute
+	/usr/bin/pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle
+
+#Brightness up
+XF86MonBrightnessUp
+    brightnessctl set 10%+
+
+#Brightness down
+XF86MonBrightnessDown
+    brightnessctl set 10%-
+
+#Скрыть верхнюю панель
+super + n
+	sh $HOME/bin/toggle-polybar
+
+# Случайные обои из заданной директории
+super + w
+	~/bin/random_wallpaper
+super + shift + w
+	/home/vladimir/.rofi_scripts/theme-selector/theme-selector.sh

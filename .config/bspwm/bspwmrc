@@ -1,0 +1,50 @@
+#!/usr/bin/sh
+source ~/.config/bspwm/colors-latte
+sxhkd &
+xinput set-prop 9 "libinput Natural Scrolling Enabled" 1 &
+~/.config/polybar/launch.sh &
+picom --config $HOME/.config/picom/picom.conf --animations --animation-for-open-window fly-in -b &
+#picom --config $HOME/.config/picom/picom.conf &
+#exec ~/.config/bspwm/borders.sh &
+nitrogen --restore &
+xsetroot -cursor_name left_ptr &
+
+
+setxkbmap -option grp:super_space_toggle us,ru 
+
+# Мониторы
+bspc monitor eDP-1 -d 1 2 3 4 5
+bspc monitor DP-1 -d 6 7 8 9 10
+bspc config remove_disabled_monitors true
+#bspc config automatic_scheme spiral
+bspc config automatic_scheme longest_side
+# Гапсы
+bspc config focus_follows_pointer true
+bspc config top_padding 25
+bspc config left_padding 0.6
+bspc config right_padding 0.6
+bspc config bottom_padding 0.6
+bspc config gapless_monocle true
+bspc config border_width         3
+bspc config window_gap          12
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# Цвета
+bspc config normal_border_color $normal
+bspc config active_border_color $normal
+
+bspc config focused_border_color $focused
+bspc config preselect_feedback_color $focused
+
+
+# Правила для пприложений
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+#bspc rule -a TelegramDesktop state=floating follow=off
+# Курсорчик
+xsetroot -cursor_name left_ptr &

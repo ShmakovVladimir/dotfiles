@@ -1,0 +1,12 @@
+#!/bin/sh
+pgrep -x polybar
+status=$?
+if test $status -eq 0 
+then
+  killall polybar 
+  while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+echo "all killed..."
+  bspc config top_padding 0.6
+else 
+  $HOME/.config/polybar/launch.sh && bspc config top_padding 25
+fi

@@ -1,0 +1,64 @@
+; vim:ft=dosini
+
+[colors-nord]
+background = #2E3440
+buffer = #4c566a
+foreground = #D8DEE9
+nord6 = #ECEFF4
+nord7 = #8FBCBB
+nord8 = #88C0D0
+nord9 = #81A1C1
+urgent = #BF616A
+warning = #D08770
+notify = #EBCB8B
+success = #A3BE8C
+function = #B48EAD
+
+[colors-frappe]
+
+background = #303446
+buffer =  #51576d
+foreground = #a5adce
+nord7 = #81c8be
+nord6 = #c6d0f5
+nord8 = #8caaee
+nord9 =  #babbf1
+urgent =   #f4b8e4
+warning =  #eebebe
+notify =  #eebebe
+success = #a6d189
+function = #babbf1
+
+
+[colors-latte]
+
+background = #eff1f5
+buffer =  #4c4f69
+foreground = #4c4f69
+nord7 = #fe640b
+nord6 =  #179299
+nord8 = #04a5e5
+nord9 =  #7287fd
+urgent =   #8839ef
+warning =   	#d20f39
+notify =   	#ea76cb
+success =  	#40a02b
+function =  	#dc8a78
+
+
+[colors-everforest]
+
+background = #232a2e
+buffer =  #d3c6aa
+foreground = #d3c6aa
+nord7 = #e69875
+nord6 =  #7fbbb3
+nord8 = #83c092
+nord9 =  #d699b6
+urgent =   #d699b6
+warning =   	#e67e80
+notify =   	#a7c080
+success =  	#a7c080
+function =  	#d3c6aa
+
+
