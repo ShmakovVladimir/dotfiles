@@ -1,0 +1,14 @@
+Visual Studio Code (1.87.2, undefined, desktop)
+Jupyter Extension Version: 2024.2.0.
+Python Extension Version: 2024.2.1.
+Pylance Extension Version: 2024.3.2.
+Platform: linux (x64).
+Workspace folder ~/projects/theme-switcher, Home = /home/vladimir
+09:00:06.676 [info] Start refreshing Kernel Picker (1711951206676)
+09:00:06.694 [info] Using Pylance
+09:00:07.438 [warn] Failed to get activated env vars for /bin/python in 598ms
+09:00:07.449 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+09:00:07.473 [info] Process Execution: /bin/python -m pip list
+09:00:07.838 [info] End refreshing Kernel Picker (1711951206676)
+10:20:58.691 [info] Disposing HostJupyterExecution
+10:20:58.691 [info] Disposing HostJupyterExecution

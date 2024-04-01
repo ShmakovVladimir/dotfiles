@@ -1,0 +1,33 @@
+2024-04-01 01:24:15.190 [info] Extension host with pid 514228 started
+2024-04-01 01:24:15.190 [info] Skipping acquiring lock for /home/vladimir/.config/Code/User/workspaceStorage/7e30160a97e422b75c820cd73a579b75.
+2024-04-01 01:24:15.520 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-04-01 01:24:15.528 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-01 01:24:15.541 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-04-01 01:24:15.584 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-04-01 01:24:15.761 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2024-04-01 01:24:15.767 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-04-01 01:24:16.855 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-04-01 01:24:16.860 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-01 01:24:17.055 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-04-01 01:24:17.573 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-01 01:24:17.614 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-01 01:24:17.683 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-01 01:24:17.720 [error] Canceled: Canceled
+	at new $ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at l.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:184300)
+	at l.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at f.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:183062)
+	at l.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:184839)
+	at l.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:183831)
+	at l.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at s.executeCommand (/home/vladimir/.vscode/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:103173)
+	at a.setContext (/home/vladimir/.vscode/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:109927)
+	at T.updateTestUIButtons (/home/vladimir/.vscode/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:777167)
+	at T.activate (/home/vladimir/.vscode/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:776076)
+	at /home/vladimir/.vscode/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/vladimir/.vscode/extensions/ms-python.python-2024.2.1/out/client/extension.js:2:2450) setContext undefined
+2024-04-01 01:24:17.723 [info] Extension host with pid 514228 exiting with code 0

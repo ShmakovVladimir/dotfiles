@@ -1,0 +1,86 @@
+\documentclass[a4paper, 14pt]{article}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[top=70pt,bottom=70pt,left=48pt,right=46pt]{geometry}
+\definecolor{header}{RGB}{92,184,92}
+\definecolor{defenition}{RGB}{217,83,79}
+\definecolor{main_title}{RGB}{66,139,202}
+\definecolor{sub_header}{RGB}{91,192,222}
+\usepackage[english, russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\title{\textcolor{main_title}{Магнитные моменты легких ядер}}
+\author{Шмаков Владимир Евгеньевич - ФФКЭ гр. Б04-105}
+
+
+
+
+
+
+\begin{document}
+\maketitle
+
+
+
+\section*{\textcolor{header}{Цель работы}}
+
+
+
+\section*{\textcolor{header}{Теоретические сведения}}
+
+Рассмотрим ядро с магнитным моментом $\boldsymbol{\mu}$ во внешнем поле с индукцией $\mathbf{B}$. Взаимодействие магнитного диполя с внешним полем приводит к появлению дополнительной энергии 
+\[
+E = -(\boldsymbol{\mu},\mathbf{B}).
+\]
+Вектор $\boldsymbol{\mu}$ ориентирован по направлению полного момента количества движения $\mathbf{M}$:
+\[
+\boldsymbol{\mu} = \gamma \mathbf{M},
+\]
+где $\gamma$ -- гиромагнитное соотношение. Вводя ядерный $g$-фактор, значение которого постоянно на одном уровне,
+\[
+g = \dfrac{\hbar}{\mu_\text{я}}\gamma,
+\]
+перепишем в виде
+\[
+\boldsymbol{\mu} = \dfrac{\mu_\text{я}}{\hbar}g\mathbf{M}.
+\]
+Квадрат вектора $\mathbf{M}$ и его проекция определяются формулами
+\[
+\mathbf{M}^2 = \hbar^2 I(I+1),~M_z = m\hbar,
+\]
+гдн $I$, целое или полуцелое число, -- спин ядра, а $m$ -- целое число, по модулю не превосходящее $I$. Тогда, проектируя $\mathbf{M}$ и $\boldsymbol{\mu}$ на направление вектора $B$, получим
+\[
+\mu_B = \dfrac{\mu_\text{я}}{\hbar}g M_B = \mu_\text{я} g m.
+\]
+Таким образом, разница между расщепившимися уровнями энергии будет
+\[
+\Delta E = B\Delta \mu_B = B \mu_\text{я} g.
+\]
+Между компонентами расщепившегося уровня могут происходить электромагнитные перезоды. Переходы с нижних компонент на верхние требуют затрат энергии и происходят лишь под действием внешнего высокочастотного поля. Энергия квантов, вызывающих электромагнитные переходы, точно определена, стало быть явление носит резонансный характер. Соответствующая частота 
+\begin{equation}
+\omega = \dfrac{\Delta E}{\hbar} = \dfrac{\mu_\text{я}}{\hbar}Bg.
+\end{equation}
+Возбуждение переходов между компонентами расщепившегося ядерного уровня носит название \textcolor{defenition}{ядерного магнитного резонанса}.
+\section*{\textcolor{header}{Методика}}
+\subsection*{\textcolor{sub_header}{Оборудование}}
+
+
+
+\subsection*{\textcolor{sub_header}{Экспериментальная установка}}
+
+
+
+\section*{\textcolor{header}{Обработка экспериментальных данных}}
+
+
+
+\section*{\textcolor{header}{Вывод}}
+
+
+
+
+
+
+\end{document}

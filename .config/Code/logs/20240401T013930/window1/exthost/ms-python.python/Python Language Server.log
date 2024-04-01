@@ -1,0 +1,17 @@
+2024-04-01 01:39:36.790 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-04-01 01:39:38.214 [info] [Info  - 1:39:38 AM] (4837) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-04-01 01:39:38.215 [info] [Info  - 1:39:38 AM] (4837) Server root directory: file:///home/vladimir/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-04-01 01:39:38.215 [info] [Info  - 1:39:38 AM] (4837) Starting service instance "theme-switcher"
+2024-04-01 01:39:38.302 [info] [Info  - 1:39:38 AM] (4837) Setting pythonPath for service "theme-switcher": "/bin/python"
+2024-04-01 01:39:38.302 [info] [Info  - 1:39:38 AM] (4837) Setting environmentName for service "theme-switcher": "3.12.2 (global)"
+2024-04-01 01:39:38.399 [info] [Info  - 1:39:38 AM] (4837) Assuming Python version 3.12
+2024-04-01 01:39:38.527 [info] [Info  - 1:39:38 AM] (4837) Found 1 source file
+2024-04-01 01:39:39.310 [info] [Info  - 1:39:39 AM] (4837) Background analysis(1) root directory: file:///home/vladimir/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-04-01 01:39:39.316 [info] [Info  - 1:39:39 AM] (4837) Background analysis(1) started
+2024-04-01 01:39:39.846 [info] [Info  - 1:39:39 AM] (4837) Indexer background runner(2) root directory: file:///home/vladimir/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-04-01 01:39:39.847 [info] [Info  - 1:39:39 AM] (4837) Indexing(2) started
+2024-04-01 01:39:41.449 [info] [Info  - 1:39:41 AM] (4837) [BG(1)] Long operation: analyzing: file:///home/vladimir/projects/theme-switcher/main.py (2011ms)
+2024-04-01 01:39:42.074 [info] [Info  - 1:39:42 AM] (4837) [IDX(2)] Long operation: scan packages file:///home/vladimir/projects/theme-switcher (2214ms)
+2024-04-01 01:39:42.075 [info] [Info  - 1:39:42 AM] (4837) scanned(2) 257 files over 1 exec env
+2024-04-01 01:39:43.789 [info] [Info  - 1:39:43 AM] (4837) indexed(2) 160 files over 1 exec env
+2024-04-01 01:39:44.225 [info] [Info  - 1:39:44 AM] (4837) Indexing finished(2).

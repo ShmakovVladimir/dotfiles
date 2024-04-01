@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaults
+[
+    { "key": "alt+j",                  "command": "cursorDown"},
+    { "key": "alt+k",                  "command": "cursorUp"},
+    { "key": "alt+l",                   "command": "cursorRight"},
+    {"key": "alt+h",                    "command": "cursorLeft"},
+    {"key": "ctrl+shift+h",              "command": "cursorWordLeftSelect"},
+    {"key": "ctrl+shift+l",             "command": "cursorWordRightSelect"},
+    {"key": "ctrl+shift+k",             "command": "cursorUpSelect"},
+    {
+        "key": "ctrl+shift+j",
+        "command": "cursorDownSelect"
+    },
+    {
+        "key": "ctrl+k a",
+        "command": "workbench.action.activityBarLocation.hide"
+    },
+]

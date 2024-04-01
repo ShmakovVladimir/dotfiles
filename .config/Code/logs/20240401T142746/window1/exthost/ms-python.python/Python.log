@@ -1,0 +1,29 @@
+2024-04-01 14:27:59.915 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-04-01 14:27:59.915 [info] Experiment 'pythonREPLSmartSend' is active
+2024-04-01 14:27:59.915 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-04-01 14:27:59.915 [info] Experiment 'pythonTestAdapter' is active
+2024-04-01 14:27:59.915 [info] Default formatter is set to null for workspace /home/vladimir/dotfiles/bin
+2024-04-01 14:27:59.915 [info] Test server listening.
+2024-04-01 14:27:59.915 [info] Python interpreter path: /bin/python
+2024-04-01 14:27:59.915 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-04-01 14:27:59.921 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-04-01 14:28:00.002 [info] > conda info --json
+2024-04-01 14:28:00.012 [info] > /usr/share/anaconda/bin/conda info --json
+2024-04-01 14:28:00.040 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/interpreterInfo.py
+2024-04-01 14:28:00.136 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-04-01 14:28:01.440 [info] Starting Pylance language server.
+2024-04-01 14:28:34.393 [info] Discover tests for workspace name: bin - uri: /home/vladimir/dotfiles/bin/main.py
+2024-04-01 14:28:43.898 [info] Discover tests for workspace name: bin - uri: /home/vladimir/dotfiles/bin/main.py
+2024-04-01 14:30:02.077 [info] Discover tests for workspace name: bin - uri: /home/vladimir/dotfiles/bin/main.py
+2024-04-01 14:30:02.912 [info] Discover tests for workspace name: bin - uri: /home/vladimir/dotfiles/bin/main.py
+2024-04-01 14:30:36.412 [info] Discover tests for workspace name: bin - uri: /home/vladimir/dotfiles/bin/main.py
+2024-04-01 14:31:17.652 [info] Discover tests for workspace name: bin - uri: /home/vladimir/dotfiles/bin/main.py
+2024-04-01 14:31:18.332 [info] Discover tests for workspace name: bin - uri: /home/vladimir/dotfiles/bin/main.py

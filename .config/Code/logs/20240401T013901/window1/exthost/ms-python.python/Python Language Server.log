@@ -1,0 +1,13 @@
+2024-04-01 01:39:06.363 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-04-01 01:39:07.317 [info] [Info  - 1:39:07 AM] (4211) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-04-01 01:39:07.318 [info] [Info  - 1:39:07 AM] (4211) Server root directory: file:///home/vladimir/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-04-01 01:39:07.318 [info] [Info  - 1:39:07 AM] (4211) Starting service instance "theme-switcher"
+2024-04-01 01:39:07.367 [info] [Info  - 1:39:07 AM] (4211) Setting pythonPath for service "theme-switcher": "/bin/python"
+2024-04-01 01:39:07.367 [info] [Info  - 1:39:07 AM] (4211) Setting environmentName for service "theme-switcher": "3.12.2 (global)"
+2024-04-01 01:39:07.407 [info] [Info  - 1:39:07 AM] (4211) Assuming Python version 3.12
+2024-04-01 01:39:07.553 [info] [Info  - 1:39:07 AM] (4211) Found 1 source file
+2024-04-01 01:39:08.226 [info] [Info  - 1:39:08 AM] (4211) Background analysis(1) root directory: file:///home/vladimir/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-04-01 01:39:08.230 [info] [Info  - 1:39:08 AM] (4211) Background analysis(1) started
+2024-04-01 01:39:08.470 [info] [Info  - 1:39:08 AM] (4211) Indexer background runner(2) root directory: file:///home/vladimir/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-04-01 01:39:08.470 [info] [Info  - 1:39:08 AM] (4211) Indexing(2) started
+2024-04-01 01:39:09.725 [info] [Info  - 1:39:09 AM] (4211) scanned(2) 257 files over 1 exec env

@@ -1,0 +1,10 @@
+2024-04-01 01:46:48.675 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-04-01 01:46:48.675 [info] Experiment 'pythonREPLSmartSend' is active
+2024-04-01 01:46:48.675 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-04-01 01:46:48.675 [info] Experiment 'pythonTestAdapter' is active
+2024-04-01 01:46:48.867 [info] Default formatter is set to null for workspace /home/vladimir/projects/theme-switcher
+2024-04-01 01:46:48.938 [info] Test server listening.
+2024-04-01 01:46:49.013 [info] Python interpreter path: /bin/python
+2024-04-01 01:46:51.135 [info] > conda info --json
+2024-04-01 01:46:51.164 [info] > /usr/share/anaconda/bin/conda info --json
+2024-04-01 01:46:53.700 [info] Starting Pylance language server.

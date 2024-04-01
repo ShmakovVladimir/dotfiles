@@ -1,0 +1,62 @@
+{
+    "editor.fontSize": 22,
+    "editor.fontFamily": "Monaspace Xenon",
+    "editor.inlineSuggest.showToolbar": "never",
+    "workbench.editor.showTabs": "none",
+    "workbench.statusBar.visible": false,
+    "latex-workshop.latex.recipe.default": "pdflatex",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "latexmk (xelatex)",
+            "tools": [
+                "xelatexmk"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+              "pdflatex"
+            ]
+        },
+    ],
+    "workbench.sideBar.location": "right",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.experimentalInlineEdit.showToolbar": "never",
+    "window.menuBarVisibility": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 0,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Catppuccin Frappé",
+    
+    // we try to make semantic highlighting look good
+    "editor.semanticHighlighting.enabled": true,
+        // prevent VSCode from modifying the terminal colors
+    "terminal.integrated.minimumContrastRatio": 1,
+        // make the window's titlebar use the workbench colors
+    "window.titleBarStyle": "native",
+      
+        // applicable if you use Go, this is an opt-in flag!
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.location": "hidden"
+}
