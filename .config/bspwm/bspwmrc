@@ -1,5 +1,5 @@
 #!/usr/bin/sh
-source ~/.config/bspwm/colors-latte
+source ~/.config/bspwm/colors-everforest
 sxhkd &
 xinput set-prop 9 "libinput Natural Scrolling Enabled" 1 &
 ~/.config/polybar/launch.sh &
