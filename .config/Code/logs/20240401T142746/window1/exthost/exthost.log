@@ -16,3 +16,5 @@
 2024-04-01 14:27:59.562 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
 2024-04-01 14:27:59.639 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
 2024-04-01 14:29:53.338 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-04-01 14:49:05.106 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-01 14:49:05.149 [info] Extension host with pid 12799 exiting with code 0

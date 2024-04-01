@@ -10,3 +10,5 @@ Workspace folder ~/dotfiles/bin, Home = /home/vladimir
 14:28:00.030 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
 14:28:00.067 [info] Process Execution: /bin/python -m pip list
 14:28:01.090 [info] End refreshing Kernel Picker (1711970879530)
+14:49:05.136 [info] Disposing HostJupyterExecution
+14:49:05.137 [info] Disposing HostJupyterExecution

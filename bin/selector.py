@@ -22,7 +22,7 @@ def replace_string_in_file(file_path: str, old_str: str, new_str: str) -> None:
         raise NotImplementedError("NotImplemented error")
 
 
-now_name = open('/home/vladimir/projects/theme-switcher/theme_name.txt').read()
+now_name = open('/home/vladimir/bin/theme_name.txt').read()
 print(now_name)
 vs_code_theme_names = {'latte': 'Catppuccin Latte', 
                        'frappe': 'Catppuccin Frappé',
@@ -46,5 +46,5 @@ replace_string_in_file('/home/vladimir/bin/random_wallpaper', now_name, new_them
 subprocess.run('/home/vladimir/bin/random_wallpaper')
 subprocess.run('/home/vladimir/.config/bspwm/bspwmrc')
 subprocess.run(['killall', '-USR1', 'kitty'])
-with open('/home/vladimir/projects/theme-switcher/theme_name.txt', 'w') as f:
+with open('/home/vladimir/bin/theme_name.txt', 'w') as f:
     f.write(new_theme)
