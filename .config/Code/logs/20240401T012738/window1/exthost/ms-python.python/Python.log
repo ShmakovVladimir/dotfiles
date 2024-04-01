@@ -1,7 +1,0 @@
-2024-04-01 01:27:43.536 [info] Experiment 'pythonRecommendTensorboardExt' is active
-2024-04-01 01:27:43.536 [info] Experiment 'pythonREPLSmartSend' is active
-2024-04-01 01:27:43.536 [info] Experiment 'pythonTerminalEnvVarActivation' is active
-2024-04-01 01:27:43.536 [info] Experiment 'pythonTestAdapter' is active
-2024-04-01 01:27:43.536 [info] Default formatter is set to null for workspace /home/vladimir/projects/theme-switcher
-2024-04-01 01:27:43.536 [info] Test server listening.
-2024-04-01 01:27:43.536 [info] Python interpreter path: /bin/python
