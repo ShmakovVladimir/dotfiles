@@ -2,7 +2,7 @@
     "editor.fontSize": 22,
     "editor.fontFamily": "Monaspace Xenon",
     "editor.inlineSuggest.showToolbar": "never",
-    "workbench.editor.showTabs": "none",
+    "workbench.editor.showTabs": "multiple",
     "workbench.statusBar.visible": false,
     "latex-workshop.latex.recipe.default": "pdflatex",
     "latex-workshop.latex.recipes": [
