@@ -17,8 +17,8 @@ radius = ${config.radius}
 fixed-center = ${config.fixed-center}
 dpi = ${config.dpi:0}
 
-background = ${colors-everforest.background}
-foreground = ${colors-everforest.foreground}
+background = ${colors-tokio-night.background}
+foreground = ${colors-tokio-night.foreground}
 
 line-size = ${config.line-size}
 
