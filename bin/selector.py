@@ -46,6 +46,10 @@ replace_string_in_file('/home/vladimir/bin/random_wallpaper', now_name, new_them
 replace_string_in_file('/home/vladimir/.var/app/org.mozilla.firefox/.mozilla/firefox/4fu5mgjd.default-release/chrome/includes/cascade-colours.css',
                         now_name, 
                         new_theme)
+replace_string_in_file('/home/vladimir/.var/app/org.mozilla.firefox/.mozilla/firefox/4fu5mgjd.default-release/chrome/userContent.css',
+                        now_name, 
+                        new_theme)
+
 subprocess.run('/home/vladimir/bin/random_wallpaper')
 subprocess.run('/home/vladimir/.config/bspwm/bspwmrc')
 subprocess.run(['killall', '-USR1', 'kitty'])
