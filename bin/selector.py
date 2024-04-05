@@ -26,7 +26,8 @@ now_name = open('/home/vladimir/projects/theme-switcher/theme_name.txt').read()
 print(now_name)
 vs_code_theme_names = {'latte': 'Catppuccin Latte', 
                        'frappe': 'Catppuccin Frappé',
-                       'everforest': 'Everforest Dark'}
+                       'everforest': 'Everforest Dark',
+                       'tokio-night': 'Tokyo Night'}
 new_theme = sys.argv[1]
 path_to_polybar = r"/home/vladimir/.config/polybar/nord-top"
 path_to_polybar_2 = r"/home/vladimir/.config/polybar/bars/separate-bars"
