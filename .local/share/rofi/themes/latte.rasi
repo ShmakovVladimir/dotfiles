@@ -9,7 +9,7 @@
     grey: #9ca0b0;
 
     width: 1200;
-    font: "JetBrainsMono Nerd Font 20";
+    font: "Monospace Xenon 20";
 }
 
 element-text, element-icon , mode-switcher {

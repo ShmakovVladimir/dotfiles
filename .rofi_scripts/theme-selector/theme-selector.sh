@@ -17,9 +17,10 @@ function exists_in_list() {
 option0="frappe"
 option1="latte"
 option2="everforest"
-themes="frappe latte everforest"
+option3="tokio-night"
+themes="$option0 $option1 $option2 $option3"
 # options passed into variable
-options="$option0\n$option1\n$option2"
+options="$option0\n$option1\n$option2\n$option3"
 
 chosen="$(echo -e "$options" | rofi -lines 3 -dmenu -p "theme")"
 
