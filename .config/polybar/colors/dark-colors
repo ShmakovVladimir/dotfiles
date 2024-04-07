@@ -76,3 +76,19 @@ warning =   #c53b53
 notify =   	#b4f9f8 
 success =  	#c3e88d 
 function =  #ff007c 
+
+
+[colors-rose-pine-dawn]
+
+background = #faf4ed
+buffer =  #9893a5
+foreground = #575279 
+nord7 = #ea9d34 
+nord6 =  #d7827e 
+nord8 = #286983
+nord9 =  #907aa9
+urgent =   #56949f
+warning =   #b4637a
+notify =   	#b4637a
+success =  #286983
+function =  #ea9d34
