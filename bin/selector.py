@@ -28,7 +28,8 @@ vs_code_theme_names = {'latte': 'Catppuccin Latte',
                        'frappe': 'Catppuccin Frappé',
                        'everforest': 'Everforest Dark',
                        'tokio-night': 'Tokyo Night',
-                       'rose-pine-dawn': 'Rosé Pine Dawn'}
+                       'rose-pine-dawn': 'Rosé Pine Dawn',
+                       'rose-pine': 'Rosé Pine'}
 new_theme = sys.argv[1]
 path_to_polybar = r"/home/vladimir/.config/polybar/nord-top"
 path_to_polybar_2 = r"/home/vladimir/.config/polybar/bars/separate-bars"

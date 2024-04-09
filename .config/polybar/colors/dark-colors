@@ -92,3 +92,20 @@ warning =   #b4637a
 notify =   	#b4637a
 success =  #286983
 function =  #ea9d34
+
+
+
+[colors-rose-pine]
+
+background = #191724
+buffer =  #908caa
+foreground = #e0def4
+nord7 = #f6c177 
+nord6 =  #eb6f92 
+nord8 = #c4a7e7
+nord9 =  #9ccfd8
+urgent =   #eb6f92
+warning =   #eb6f92
+notify =   	#9ccfd8
+success =  #31748f
+function =  #f6c177

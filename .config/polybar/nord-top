@@ -7,15 +7,15 @@ interval = 1
 format = <ramp-load> <label>
 
 ramp-load-0 = 
-ramp-load-0-foreground = ${colors-rose-pine-dawn.success}
+ramp-load-0-foreground = ${colors-rose-pine.success}
 
 ramp-load-1 = 
-ramp-load-1-foreground = ${colors-rose-pine-dawn.warning}
+ramp-load-1-foreground = ${colors-rose-pine.warning}
 
 ramp-load-2 = 
-ramp-load-2-foreground = ${colors-rose-pine-dawn.urgent}
+ramp-load-2-foreground = ${colors-rose-pine.urgent}
 
-label-underline = ${colors-rose-pine-dawn.nord7}
+label-underline = ${colors-rose-pine.nord7}
 
 
 [module/memory]
@@ -27,23 +27,23 @@ format = <ramp-used> <label>
 label = %gb_used%
 
 ramp-used-0 = 
-ramp-used-0-foreground = ${colors-rose-pine-dawn.success}
+ramp-used-0-foreground = ${colors-rose-pine.success}
 
 ramp-used-1 = 
-ramp-used-1-foreground = ${colors-rose-pine-dawn.warning}
+ramp-used-1-foreground = ${colors-rose-pine.warning}
 
 ramp-used-2 = 
-ramp-used-2-foreground = ${colors-rose-pine-dawn.urgent}
+ramp-used-2-foreground = ${colors-rose-pine.urgent}
 
-label-underline = ${colors-rose-pine-dawn.nord6}
+label-underline = ${colors-rose-pine.nord6}
 
 
 [module/powermenu]
 type = custom/text
 
 content = 
-content-foreground = ${colors-rose-pine-dawn.background}
-content-background = ${colors-rose-pine-dawn.nord9}
+content-foreground = ${colors-rose-pine.background}
+content-background = ${colors-rose-pine.nord9}
 content-padding = 3
 
 click-left = /home/vladimir/.rofi_scripts/rofi-power-menu/power-menu-exec 
@@ -65,26 +65,26 @@ ws-icon-9 = ${config.ws-icon-9}
 ws-icon-default = ${config.ws-icon-default}
 
 label-focused = %icon%
-label-focused-underline = ${colors-rose-pine-dawn.nord7}
-label-focused-foreground = ${colors-rose-pine-dawn.nord7}
+label-focused-underline = ${colors-rose-pine.nord7}
+label-focused-foreground = ${colors-rose-pine.nord7}
 label-focused-padding = 2
 
 label-occupied = %icon%
-label-occupied-underline = ${colors-rose-pine-dawn.nord9}
-label-occupied-foreground = ${colors-rose-pine-dawn.nord9}
+label-occupied-underline = ${colors-rose-pine.nord9}
+label-occupied-foreground = ${colors-rose-pine.nord9}
 label-occupied-padding = 2
 
 label-empty = %icon%
-label-empty-foreground = ${colors-rose-pine-dawn.buffer}
+label-empty-foreground = ${colors-rose-pine.buffer}
 label-empty-padding = 2
 
 label-urgent = 
-label-urgent-foreground = ${colors-rose-pine-dawn.urgent}
-label-urgent-background = ${colors-rose-pine-dawn.foreground}
+label-urgent-foreground = ${colors-rose-pine.urgent}
+label-urgent-background = ${colors-rose-pine.foreground}
 label-urgent-padding = 2
 ; seperator
 label-separator = |
-label-separator-foreground = ${colors-rose-pine-dawn.buffer}
+label-separator-foreground = ${colors-rose-pine.buffer}
 
 [module/cmus]
 type = custom/script
@@ -101,7 +101,7 @@ scroll-down = cmus-remote --volume -5%
 
 label-font = 3
 format = <label>
-format-underline = ${colors-rose-pine-dawn.nord3}
+format-underline = ${colors-rose-pine.nord3}
 label = %output%
 label-maxlen = 50
 
@@ -114,20 +114,20 @@ format = <label-state>
 
 label-focused = %name%
 label-focused-padding = 2
-label-focused-foreground = ${colors-rose-pine-dawn.nord7}
-label-focused-underline = ${colors-rose-pine-dawn.nord7}
+label-focused-foreground = ${colors-rose-pine.nord7}
+label-focused-underline = ${colors-rose-pine.nord7}
 
 label-unfocused = 
 
 label-urgent = %name%
-label-urgent-foreground = ${colors-rose-pine-dawn.urgent}
-label-urgent-background = ${colors-rose-pine-dawn.foreground}
+label-urgent-foreground = ${colors-rose-pine.urgent}
+label-urgent-background = ${colors-rose-pine.foreground}
 label-urgent-padding = 2
 
 [module/title]
 type = internal/xwindow
-format-foreground = ${colors-rose-pine-dawn.nord7}
-format-underline = ${colors-rose-pine-dawn.nord7}
+format-foreground = ${colors-rose-pine.nord7}
+format-underline = ${colors-rose-pine.nord7}
 format-padding = 4
 
 label-maxlen = 20
@@ -145,7 +145,7 @@ date-alt = %H:%M:%S
 format = <label>
 label = %date%
 label-margin = 1
-label-underline = ${colors-rose-pine-dawn.nord8}
+label-underline = ${colors-rose-pine.nord8}
 
 [module/battery]
 type = internal/battery
@@ -156,7 +156,7 @@ battery = ${config.battery-bat}
 adapter = ${config.battery-adp}
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = ${colors-rose-pine-dawn.foreground}
+format-charging-underline = ${colors-rose-pine.foreground}
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
@@ -165,17 +165,17 @@ animation-charging-4 = 
 animation-charging-framerate = 750
 
 format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-underline = ${colors-rose-pine-dawn.notify}
+format-discharging-underline = ${colors-rose-pine.notify}
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
 ramp-capacity-4 = 
-ramp-capacity-foreground = ${colors-rose-pine-dawn.notify}
+ramp-capacity-foreground = ${colors-rose-pine.notify}
 
 label-full =  100
-label-full-foreground = ${colors-rose-pine-dawn.success}
-label-full-underline = ${colors-rose-pine-dawn.success}
+label-full-foreground = ${colors-rose-pine.success}
+label-full-underline = ${colors-rose-pine.success}
 
 [module/keyboard]
 type = internal/xkeyboard
@@ -188,9 +188,9 @@ bufferlist-1 = scroll lock
 format = <label-layout> <label-indicator>
 
 label-indicator-on-capslock =  CL
-label-indicator-on-capslock-foreground = ${colors-rose-pine-dawn.warning}
-label-indicator-on-capslock-underline = ${colors-rose-pine-dawn.warning}
-label-layout-underline = ${colors-rose-pine-dawn.success}
+label-indicator-on-capslock-foreground = ${colors-rose-pine.warning}
+label-indicator-on-capslock-underline = ${colors-rose-pine.warning}
+label-layout-underline = ${colors-rose-pine.success}
 ; Icons
 layout-icon-default = 
 
@@ -205,22 +205,22 @@ master-mixer = ${config.master-mixer}
 
 ; Format 
 format-volume = <ramp-volume> <label-volume>
-format-volume-underline = ${colors-rose-pine-dawn.function}
+format-volume-underline = ${colors-rose-pine.function}
 
 label-muted =  muted
-label-muted-foreground = ${colors-rose-pine-dawn.urgent}
-label-muted-underline = ${colors-rose-pine-dawn.urgent}
+label-muted-foreground = ${colors-rose-pine.urgent}
+label-muted-underline = ${colors-rose-pine.urgent}
 
 ramp-volume-0 = 
-ramp-volume-0-foreground = ${colors-rose-pine-dawn.success}
+ramp-volume-0-foreground = ${colors-rose-pine.success}
 ramp-volume-1 = 
-ramp-volume-1-foreground = ${colors-rose-pine-dawn.notify}
+ramp-volume-1-foreground = ${colors-rose-pine.notify}
 ramp-volume-2 = 
-ramp-volume-2-foreground = ${colors-rose-pine-dawn.urgent}
+ramp-volume-2-foreground = ${colors-rose-pine.urgent}
 
 ramp-headphones-0 = 
 
-ramp-volume-foreground = ${colors-rose-pine-dawn.nord7}
+ramp-volume-foreground = ${colors-rose-pine.nord7}
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -231,22 +231,22 @@ interval = 5
 
 ; Format 
 format-volume = <ramp-volume> <label-volume>
-format-volume-underline = ${colors-rose-pine-dawn.function}
+format-volume-underline = ${colors-rose-pine.function}
 
 label-muted =  muted
-label-muted-foreground = ${colors-rose-pine-dawn.urgent}
-label-muted-underline = ${colors-rose-pine-dawn.urgent}
+label-muted-foreground = ${colors-rose-pine.urgent}
+label-muted-underline = ${colors-rose-pine.urgent}
 
 ramp-volume-0 = 
-ramp-volume-0-foreground = ${colors-rose-pine-dawn.success}
+ramp-volume-0-foreground = ${colors-rose-pine.success}
 ramp-volume-1 = 
-ramp-volume-1-foreground = ${colors-rose-pine-dawn.notify}
+ramp-volume-1-foreground = ${colors-rose-pine.notify}
 ramp-volume-2 = 
-ramp-volume-2-foreground = ${colors-rose-pine-dawn.urgent}
+ramp-volume-2-foreground = ${colors-rose-pine.urgent}
 
 ramp-headphones-0 = 
 
-ramp-volume-foreground = ${colors-rose-pine-dawn.nord7}
+ramp-volume-foreground = ${colors-rose-pine.nord7}
 
 [module/backlight]
 type = internal/backlight
@@ -263,12 +263,12 @@ enable-scroll = true
 
 ; Format
 format = <ramp> <label>
-format-underline = ${colors-rose-pine-dawn.nord9}
+format-underline = ${colors-rose-pine.nord9}
 
 ramp-0 = 
 
 label = %{A1:$HOME/.config/polybar/scripts/toggle-redshift.sh:}%percentage%%%{A}
-ramp-foreground = ${colors-rose-pine-dawn.nord9}
+ramp-foreground = ${colors-rose-pine.nord9}
 
 [module/mpd]
 type = internal/mpd
@@ -281,46 +281,46 @@ format-online = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop> | <bar
 format-paused = <toggle> <icon-prev> <label-song> <icon-next> <icon-stop>
 format-stopped =  <toggle>
 
-label-song-underline = ${colors-rose-pine-dawn.nord8}
+label-song-underline = ${colors-rose-pine.nord8}
 label-song = %artist:0:10:...% - %title:0:10:...%
 
 icon-play = 
-icon-play-foreground = ${colors-rose-pine-dawn.success}
+icon-play-foreground = ${colors-rose-pine.success}
 icon-play-margin = 1
 icon-pause = 
-icon-pause-foreground = ${colors-rose-pine-dawn.warning}
+icon-pause-foreground = ${colors-rose-pine.warning}
 icon-pause-margin = 1
 icon-stop = 
-icon-stop-foreground = ${colors-rose-pine-dawn.urgent}
+icon-stop-foreground = ${colors-rose-pine.urgent}
 icon-stop-margin = 1
 icon-prev = 
-icon-prev-foreground = ${colors-rose-pine-dawn.function}
+icon-prev-foreground = ${colors-rose-pine.function}
 icon-prev-margin = 1
 icon-next = 
-icon-next-foreground = ${colors-rose-pine-dawn.function}
+icon-next-foreground = ${colors-rose-pine.function}
 icon-next-margin = 1
 icon-repeat = 
 icon-repeat-margin = 1
 icon-random = 
 icon-random-margin = 1
 
-toggle-on-foreground = ${colors-rose-pine-dawn.success}
-toggle-off-foreground = ${colors-rose-pine-dawn.urgent}
+toggle-on-foreground = ${colors-rose-pine.success}
+toggle-off-foreground = ${colors-rose-pine.urgent}
 
 bar-progress-width = 20
 bar-progress-indicator = |
 bar-progress-fill = -
 bar-progress-empty = -
 bar-progress-gradient = true
-bar-progress-foreground-0 = ${colors-rose-pine-dawn.nord7}
-bar-progress-foreground-1 = ${colors-rose-pine-dawn.nord8}
-bar-progress-foreground-2 = ${colors-rose-pine-dawn.nord9}
+bar-progress-foreground-0 = ${colors-rose-pine.nord7}
+bar-progress-foreground-1 = ${colors-rose-pine.nord8}
+bar-progress-foreground-2 = ${colors-rose-pine.nord9}
 
 [module/notify]
 type = custom/text
 content = 
-content-foreground = ${colors-rose-pine-dawn.warning}
-content-underline = ${colors-rose-pine-dawn.warning}
+content-foreground = ${colors-rose-pine.warning}
+content-underline = ${colors-rose-pine.warning}
 content-padding = 1
 
 click-left = ${config.notify-click-left}
@@ -335,24 +335,24 @@ format-connected = %{A1:networkmanager_dmenu:}<ramp-signal>%{A}
 format-disconnected = %{A1:networkmanager_dmenu:}<label-disconnected>%{A}
 
 label-disconnected = 
-label-disconnected-foreground = ${colors-rose-pine-dawn.urgent}
+label-disconnected-foreground = ${colors-rose-pine.urgent}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 
-ramp-signal-0-foreground = ${colors-rose-pine-dawn.urgent}
-ramp-signal-0-underline = ${colors-rose-pine-dawn.urgent}
+ramp-signal-0-foreground = ${colors-rose-pine.urgent}
+ramp-signal-0-underline = ${colors-rose-pine.urgent}
 
-ramp-signal-1-foreground = ${colors-rose-pine-dawn.notify}
-ramp-signal-1-underline = ${colors-rose-pine-dawn.notify}
+ramp-signal-1-foreground = ${colors-rose-pine.notify}
+ramp-signal-1-underline = ${colors-rose-pine.notify}
 
-ramp-signal-2-foreground = ${colors-rose-pine-dawn.nord7}
-ramp-signal-2-underline = ${colors-rose-pine-dawn.nord7}
+ramp-signal-2-foreground = ${colors-rose-pine.nord7}
+ramp-signal-2-underline = ${colors-rose-pine.nord7}
 
-ramp-signal-3-foreground = ${colors-rose-pine-dawn.success}
-ramp-signal-3-underline = ${colors-rose-pine-dawn.success}
+ramp-signal-3-foreground = ${colors-rose-pine.success}
+ramp-signal-3-underline = ${colors-rose-pine.success}
 click-left = exec ~/.rofi_scripts/rofi-wifi-menu/wf
 tail = true
 [module/spotify]
@@ -396,8 +396,8 @@ click-right = ~/.config/polybar/scripts/clipmenu.sh toggle
 type = custom/text
 
 content = 
-content-background = ${colors-rose-pine-dawn.nord9}
-content-foreground = ${colors-rose-pine-dawn.background}
+content-background = ${colors-rose-pine.nord9}
+content-foreground = ${colors-rose-pine.background}
 content-padding = 3
 
 click-left = ~/.config/polybar/scripts/rofi_run
@@ -406,7 +406,7 @@ click-right = rofi -show window
 type = custom/text
 
 content = 
-content-foreground = ${colors-rose-pine-dawn.success}
+content-foreground = ${colors-rose-pine.success}
 content-padding = 1
 content-left = git -C /home/yucklys/OneDrive/logseq push
 content-right = git -C /home/yucklys/OneDrive/logseq pull -ff
@@ -428,8 +428,8 @@ label-font = 10
 click-left = bl
 click-right = exec ~/.config/polybar/scripts/toggle_bluetooth.sh
 format-padding = 1
-format-background = ${colors-rose-pine-dawn.background}
-format-foreground = ${colors-rose-pine-dawn.foreground}
+format-background = ${colors-rose-pine.background}
+format-foreground = ${colors-rose-pine.foreground}
 format-underline = #81a1c1
 
 [module/cava]
@@ -440,5 +440,5 @@ exec = $HOME/.config/polybar/scripts/cava.sh
 format = <label>
 format-font = 5
 
-label-foreground = ${colors-rose-pine-dawn.nord7}
+label-foreground = ${colors-rose-pine.nord7}
 label = %output%
