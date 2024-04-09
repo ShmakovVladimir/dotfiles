@@ -110,3 +110,4 @@ path+=/home/vladimir/.rofi_scripts/rofi-sound
 path+=/home/vladimir/.config/polybar/scripts
 path+=/home/vladimir/.rofi_scripts/rofi-power-menu
 path+=/home/vladimir/BOTAY!/Labs/LaTeX_Template
+path+=~/.local/bin
