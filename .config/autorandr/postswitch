@@ -1,4 +1,3 @@
 #! /bin/sh
 
-python3 ~/bin/docked_undocked.py
 ~/.config/bspwm/bspwmrc
