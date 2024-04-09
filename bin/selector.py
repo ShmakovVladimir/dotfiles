@@ -34,7 +34,8 @@ nvim_config_string = {'latte': 'vim.cmd.colorscheme "catppuccin-latte"',
                       'frappe': 'vim.cmd.colorscheme "catppuccin-frappe"',
                       'everforest': 'vim.cmd.colorscheme "everforest"',
                       'rose-pine-dawn': 'vim.cmd.colorscheme "rose-pine-dawn"',
-                      'rose-pine': 'vim.cmd.colorscheme "rose-pine"'}
+                      'rose-pine': 'vim.cmd.colorscheme "rose-pine"',
+                      'tokio-night': 'vim.cmd.colorscheme "tokyonight"'}
 
 new_theme = sys.argv[1]
 path_to_polybar = r"/home/vladimir/.config/polybar/nord-top"
