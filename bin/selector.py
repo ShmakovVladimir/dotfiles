@@ -27,7 +27,16 @@ print(now_name)
 vs_code_theme_names = {'latte': 'Catppuccin Latte', 
                        'frappe': 'Catppuccin Frappé',
                        'everforest': 'Everforest Dark',
-                       'tokio-night': 'Tokyo Night'}
+                       'tokio-night': 'Tokyo Night',
+                       'rose-pine-dawn': 'Rosé Pine Dawn',
+                       'rose-pine': 'Rosé Pine'}
+nvim_config_string = {'latte': 'vim.cmd.colorscheme "catppuccin-latte"',
+                      'frappe': 'vim.cmd.colorscheme "catppuccin-frappe"',
+                      'everforest': 'vim.cmd.colorscheme "everforest"',
+                      'rose-pine-dawn': 'vim.cmd.colorscheme "rose-pine-dawn"',
+                      'rose-pine': 'vim.cmd.colorscheme "rose-pine"',
+                      'tokio-night': 'vim.cmd.colorscheme "tokyonight"'}
+
 new_theme = sys.argv[1]
 path_to_polybar = r"/home/vladimir/.config/polybar/nord-top"
 path_to_polybar_2 = r"/home/vladimir/.config/polybar/bars/separate-bars"
@@ -49,7 +58,9 @@ replace_string_in_file('/home/vladimir/.var/app/org.mozilla.firefox/.mozilla/fir
 replace_string_in_file('/home/vladimir/.var/app/org.mozilla.firefox/.mozilla/firefox/4fu5mgjd.default-release/chrome/userContent.css',
                         now_name, 
                         new_theme)
-
+replace_string_in_file('/home/vladimir/.config/nvim/init.lua',
+                       nvim_config_string[now_name],
+                       nvim_config_string[new_theme])
 subprocess.run('/home/vladimir/bin/random_wallpaper')
 subprocess.run('/home/vladimir/.config/bspwm/bspwmrc')
 subprocess.run(['killall', '-USR1', 'kitty'])

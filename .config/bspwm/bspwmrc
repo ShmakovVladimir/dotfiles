@@ -1,5 +1,5 @@
 #!/usr/bin/sh
-source ~/.config/bspwm/colors-tokio-night
+source ~/.config/bspwm/colors-rose-pine
 
 
 sxhkd &

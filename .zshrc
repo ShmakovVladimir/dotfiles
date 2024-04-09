@@ -99,7 +99,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
+alias lg="lazygit"
+alias qc="qalc"
+
+
 path+=~/.rofi_scripts/rofi-bluetooth
 path+=~/.rofi_scripts/rofi-wifi-menu
 path+=/home/vladimir/.rofi_scripts/rofi-sound
