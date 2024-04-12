@@ -14,5 +14,16 @@
     {
         "key": "ctrl+k a",
         "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    // switch between suggestions using tab key
+    {
+        "key": "tab",
+        "command": "selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "shift+tab",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
     }
 ]
