@@ -59,6 +59,15 @@
     },
     "catppuccin.workbenchMode": "flat",
     "explorer.confirmDragAndDrop": false,
+    "window.density.editorTabHeight": "compact",
+    "editor.cursorSurroundingLines": 15,
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "phase",
+    "vscode_custom_css.imports": [
+        "file:///home/vladimir/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+    ],
+    "animations.Enabled": true,
     "workbench.activityBar.location": "hidden",
-    "window.density.editorTabHeight": "compact"
+
 }

@@ -4,7 +4,8 @@ source ~/.config/bspwm/colors-rose-pine
 sxhkd &
 xinput set-prop 9 "libinput Natural Scrolling Enabled" 1 &
 ~/.config/polybar/launch.sh &
-picom --config $HOME/.config/picom/picom.conf --animations --animation-for-open-window fly-in -b &
+picom --config $HOME/.config/picom/picom.conf --animations --animation-for-open-window fly-in -b --experimental-backends&
+#picom --config $HOME/.config/picom/picom.conf --animations --animation-for-open-window fly-in -b&
 #picom --config $HOME/.config/picom/picom.conf &
 #exec ~/.config/bspwm/borders.sh &
 nitrogen --restore &
