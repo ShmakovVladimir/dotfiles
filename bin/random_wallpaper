@@ -1,2 +1,2 @@
 #!/bin/bash
-nitrogen --set-zoom-fill --random ~/Pictures/everforest-wallpapers --save
+nitrogen --set-zoom-fill --random ~/Pictures/latte-wallpapers --save
