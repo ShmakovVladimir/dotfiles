@@ -20,9 +20,10 @@ option2="everforest"
 option3="tokio-night"
 option4="rose-pine-dawn"
 option5="rose-pine"
-themes="$option0 $option1 $option2 $option3 $option4 $option5"
+option6="mocha"
+themes="$option0 $option1 $option2 $option3 $option4 $option5 $option6"
 # options passed into variable
-options="$option0\n$option1\n$option2\n$option3\n$option4\n$option5"
+options="$option0\n$option1\n$option2\n$option3\n$option4\n$option5\n$option6"
 
 chosen="$(echo -e "$options" | rofi -lines 3 -dmenu -p "theme")"
 

@@ -102,8 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias lg="lazygit"
 alias qc="qalc"
-
-
 path+=~/.rofi_scripts/rofi-bluetooth
 path+=~/.rofi_scripts/rofi-wifi-menu
 path+=/home/vladimir/.rofi_scripts/rofi-sound

@@ -109,3 +109,19 @@ warning =   #eb6f92
 notify =   	#9ccfd8
 success =  #31748f
 function =  #f6c177
+
+[colors-mocha]
+background =  	#1e1e2e
+buffer =   	#9399b2
+foreground = #cdd6f4
+nord7 =  	#f5c2e7
+nord6 =  #eb6f92 
+nord8 = #94e2d5
+nord9 =  #b4befe
+urgent =    	#f5e0dc
+warning =    	#f38ba8
+notify =   	#74c7ec
+success =  #a6e3a1
+function =  #94e2d5
+
+

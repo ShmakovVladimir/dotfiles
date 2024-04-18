@@ -29,13 +29,15 @@ vs_code_theme_names = {'latte': 'Catppuccin Latte',
                        'everforest': 'Everforest Dark',
                        'tokio-night': 'Tokyo Night',
                        'rose-pine-dawn': 'Rosé Pine Dawn',
-                       'rose-pine': 'Rosé Pine'}
+                       'rose-pine': 'Rosé Pine',
+                       'mocha': 'Catppuccin Mocha'}
 nvim_config_string = {'latte': 'vim.cmd.colorscheme "catppuccin-latte"',
                       'frappe': 'vim.cmd.colorscheme "catppuccin-frappe"',
                       'everforest': 'vim.cmd.colorscheme "everforest"',
                       'rose-pine-dawn': 'vim.cmd.colorscheme "rose-pine-dawn"',
                       'rose-pine': 'vim.cmd.colorscheme "rose-pine"',
-                      'tokio-night': 'vim.cmd.colorscheme "tokyonight"'}
+                      'tokio-night': 'vim.cmd.colorscheme "tokyonight"',
+                      'mocha': 'vim.cmd.colorscheme "catppuccin-mocha"'}
 
 new_theme = sys.argv[1]
 path_to_polybar = r"/home/vladimir/.config/polybar/nord-top"
