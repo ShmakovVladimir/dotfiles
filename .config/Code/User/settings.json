@@ -44,7 +44,7 @@
     "editor.minimap.enabled": false,
     "editor.lineHeight": 0,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Catppuccin Latte",
     
     // we try to make semantic highlighting look good
     "editor.semanticHighlighting.enabled": true,
