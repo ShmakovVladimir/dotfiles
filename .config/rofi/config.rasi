@@ -18,4 +18,4 @@ window {
 	width: 100%;
 }
 
-@theme "/home/vladimir/.local/share/rofi/themes/latte.rasi"
+@theme "/home/vladimir/.local/share/rofi/themes/nord.rasi"

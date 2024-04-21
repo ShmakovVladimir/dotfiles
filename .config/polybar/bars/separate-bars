@@ -17,8 +17,8 @@ radius = ${config.radius}
 fixed-center = ${config.fixed-center}
 dpi = ${config.dpi:0}
 
-background = ${colors-latte.background}
-foreground = ${colors-latte.foreground}
+background = ${colors-nord.background}
+foreground = ${colors-nord.foreground}
 
 line-size = ${config.line-size}
 

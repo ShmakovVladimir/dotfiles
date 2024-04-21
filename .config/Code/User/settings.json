@@ -44,7 +44,7 @@
     "editor.minimap.enabled": false,
     "editor.lineHeight": 0,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Catppuccin Latte",
+    "workbench.colorTheme": "Nord",
     
     // we try to make semantic highlighting look good
     "editor.semanticHighlighting.enabled": true,
@@ -68,6 +68,7 @@
         "file:///home/vladimir/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
     ],
     "animations.Enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
     "workbench.activityBar.location": "hidden",
 
 }

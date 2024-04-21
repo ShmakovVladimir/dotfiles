@@ -39,6 +39,9 @@ enable-ipc = true
 inherit = bar/base
 monitor = eDP-1
 module-margin = 1
+offset-x = 0.8%
+offset-y = 1%
+width = 98.4%
 
 font-0 = WenQuanYiMicroHei:size=12
 font-1 = FontAwesome6FreeSolid:pixelsize=12;1
@@ -51,6 +54,8 @@ modules-center = ${config.top-center}
 modules-right = ${config.top-right}
 
 tray-position = ${config.systray-top}
+background = ${colors-latte.background}
+foreground = ${colors-latte.foreground}
 
 
 [bar/nord-top-left]
