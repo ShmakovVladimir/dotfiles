@@ -72,5 +72,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.smoothScrolling": true,
     "workbench.list.smoothScrolling": true,
+    "workbench.activityBar.location": "hidden",
 
 }
