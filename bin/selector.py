@@ -42,11 +42,13 @@ nvim_config_string = {'latte': 'vim.cmd.colorscheme "catppuccin-latte"',
                       'nord': 'vim.cmd.colorscheme "nord"'}
 
 new_theme = sys.argv[1]
-path_to_polybar = r"/home/vladimir/.config/polybar/nord-top"
-path_to_polybar_2 = r"/home/vladimir/.config/polybar/bars/separate-bars"
-old_str = f"colors-{now_name}"
-new_str = f"colors-{new_theme}"
+path_to_polybar = r"/home/vladimir/.config/polybar/modules.ini"
+path_to_polybar_3 = r"/home/vladimir/.config/polybar/user_modules.ini"
+path_to_polybar_2 = r"/home/vladimir/.config/polybar/config.ini"
+old_str = f"color-{now_name}"
+new_str = f"color-{new_theme}"
 replace_string_in_file(path_to_polybar, old_str, new_str)
+replace_string_in_file(path_to_polybar_3, old_str, new_str)
 replace_string_in_file(path_to_polybar_2, old_str, new_str)
 replace_string_in_file('/home/vladimir/.config/bspwm/bspwmrc', now_name, new_theme)
 replace_string_in_file('/home/vladimir/.config/kitty/kitty.conf', now_name, new_theme)

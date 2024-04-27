@@ -65,7 +65,7 @@ wm-restack = bspwm
 # Top modules
 top-left = rofi-run bspwm
 top-center = date
-top-right = bluetooth network-short keyboard pulseaudio battery powermenu 
+top-right = memory cpu keyboard pulseaudio battery powermenu 
 
 # Bottom modules
 

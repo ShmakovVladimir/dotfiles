@@ -25,5 +25,15 @@
         "key": "shift+tab",
         "command": "selectPrevSuggestion",
         "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "cursorWordPartRight",
+        "when": "editorTextFocus",
+    },
+    {
+        "key": "alt+shift+h",
+        "command": "cursorWordPartLeft",
+        "when": "editorTextFocus",
     }
 ]

@@ -17,8 +17,8 @@ radius = ${config.radius}
 fixed-center = ${config.fixed-center}
 dpi = ${config.dpi:0}
 
-background = ${colors-latte.background}
-foreground = ${colors-latte.foreground}
+background = ${colors-nord.background}
+foreground = ${colors-nord.foreground}
 
 line-size = ${config.line-size}
 
@@ -42,9 +42,12 @@ monitor = eDP-1
 module-margin = 1
 offset-x = 0.8%
 offset-y = 0.5%
-width = 2.05%
+width = 2.35%
 #width = 95.9%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -63,7 +66,10 @@ module-margin = 1
 offset-x = 4.2%
 offset-y = 0.5%
 width = 11%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -81,8 +87,11 @@ monitor = eDP-1
 module-margin = 1
 offset-x = 97.15%
 offset-y = 0.5%
-width = 2.05%
-radius = 2
+width = 2.35%
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -102,7 +111,10 @@ module-margin = 1
 offset-x = 88%
 offset-y = 0.5%
 width = 8%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -122,7 +134,10 @@ module-margin = 1
 offset-x = 73.7%
 offset-y = 0.5%
 width = 3%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -142,7 +157,10 @@ module-margin = 1
 offset-x = 77.85%
 offset-y = 0.5%
 width = 9%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -162,7 +180,10 @@ module-margin = 1
 offset-x = 16.15%
 offset-y = 0.5%
 width = 25%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = JetBrainsMonoNerdFont:pixelsize=8
@@ -178,7 +199,10 @@ module-margin = 1
 offset-x = 16.15%
 offset-y = 0.5%
 width = 25%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = JetBrainsMonoNerdFont:pixelsize=8
@@ -198,7 +222,10 @@ module-margin = 1
 offset-x = 77.85%
 offset-y = 0.5%
 width = 9%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -218,8 +245,11 @@ monitor = DP-1
 module-margin = 1
 offset-x = 0.8%
 offset-y = 0.5%
-width = 2.05%
-radius = 2
+width = 2.35%
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -238,7 +268,9 @@ module-margin = 1
 offset-x = 4.2%
 offset-y = 0.5%
 width = 11%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -256,8 +288,11 @@ monitor = DP-1
 module-margin = 1
 offset-x = 97.15%
 offset-y = 0.5%
-width = 2.05%
-radius = 2
+width = 2.35%
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -277,7 +312,10 @@ module-margin = 1
 offset-x = 88%
 offset-y = 0.5%
 width = 8%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -297,7 +335,10 @@ module-margin = 1
 offset-x = 73.7%
 offset-y = 0.5%
 width = 3%
-radius = 2
+radius = 5
+border-size = 3
+border-color = ${colors-nord.foreground}
+
 
 
 font-0 = WenQuanYiMicroHei:size=12
