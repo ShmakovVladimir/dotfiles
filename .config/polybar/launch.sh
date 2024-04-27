@@ -21,16 +21,18 @@ polybar -c $HOME/.config/polybar/bars/separate-bars info&
 
 
 if [[ $(xrandr -q | grep 'DP-1 connected') ]]; then
- # polybar -c $HOME/.config/polybar/bars/dark-config nord-top-rounded-second 
- # polybar -c $HOME/.config/polybar/bars/dark-config nord-top-left-monitor &
+# polybar -c $HOME/.config/polybar/bars/dark-config nord-top-rounded-second 
+ #polybar -c $HOME/.config/polybar/bars/dark-config nord-top-left-monitor &
  # polybar -c $HOME/.config/polybar/bars/dark-config nord-top-center-monitor& 
  # polybar -c $HOME/.config/polybar/bars/dark-config nord-top-right-monitor&
-   polybar -c $HOME/.config/polybar/bars/separate-bars run-second&
-polybar -c $HOME/.config/polybar/bars/separate-bars bspwm-second&
-polybar -c $HOME/.config/polybar/bars/separate-bars power-second&
-polybar -c $HOME/.config/polybar/bars/separate-bars ai-second&
-polybar -c $HOME/.config/polybar/bars/separate-bars clock-second&
-polybar -c $HOME/.config/polybar/bars/separate-bars info-second&
+# polybar -c $HOME/.config/polybar/bars/separate-bars run-second&
+#polybar -c $HOME/.config/polybar/bars/separate-bars bspwm-second&
+#polybar -c $HOME/.config/polybar/bars/separate-bars power-second&
+#polybar -c $HOME/.config/polybar/bars/separate-bars ai-second&
+#polybar -c $HOME/.config/polybar/bars/separate-bars clock-second&
+#polybar -c $HOME/.config/polybar/bars/separate-bars info-second&
+#polybar -c $HOME/.config/polybar/bars/separate-bars music-second&
+polybar -c $HOME/.config/polybar/bars/main main&
 
 fi
 

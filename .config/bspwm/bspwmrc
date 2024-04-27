@@ -1,5 +1,5 @@
 #!/usr/bin/sh
-source ~/.config/bspwm/colors-nord
+source ~/.config/bspwm/colors-latte
 
 sxhkd &
 xinput set-prop 9 "libinput Natural Scrolling Enabled" 1 &
@@ -27,7 +27,7 @@ bspc config left_padding 0.3
 bspc config right_padding 0.3
 bspc config bottom_padding 0.3
 bspc config gapless_monocle true
-bspc config border_width         3
+bspc config border_width         4
 bspc config window_gap          12
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true

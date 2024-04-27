@@ -138,10 +138,8 @@ inherit = bar/base
 monitor = DP-1
 module-margin = 1
 offset-x = 0.8%
-offset-y = 0.5%
+offset-y = 0%
 width = 98.4%
-radius = 10
-
 
 font-0 = WenQuanYiMicroHei:size=12
 font-1 = FontAwesome6FreeSolid:pixelsize=12;1

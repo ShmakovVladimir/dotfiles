@@ -17,8 +17,8 @@ radius = ${config.radius}
 fixed-center = ${config.fixed-center}
 dpi = ${config.dpi:0}
 
-background = ${colors-nord.background}
-foreground = ${colors-nord.foreground}
+background = ${colors-latte.background}
+foreground = ${colors-latte.foreground}
 
 line-size = ${config.line-size}
 
@@ -43,7 +43,8 @@ module-margin = 1
 offset-x = 0.8%
 offset-y = 0.5%
 width = 2.05%
-radius = 6
+#width = 95.9%
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -62,7 +63,7 @@ module-margin = 1
 offset-x = 4.2%
 offset-y = 0.5%
 width = 11%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -81,7 +82,7 @@ module-margin = 1
 offset-x = 97.15%
 offset-y = 0.5%
 width = 2.05%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -101,7 +102,7 @@ module-margin = 1
 offset-x = 88%
 offset-y = 0.5%
 width = 8%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -121,7 +122,7 @@ module-margin = 1
 offset-x = 73.7%
 offset-y = 0.5%
 width = 3%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -141,7 +142,7 @@ module-margin = 1
 offset-x = 77.85%
 offset-y = 0.5%
 width = 9%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -161,13 +162,30 @@ module-margin = 1
 offset-x = 16.15%
 offset-y = 0.5%
 width = 25%
-radius = 6
+radius = 2
 
 
 font-0 = JetBrainsMonoNerdFont:pixelsize=8
 font-1 = FiraCodeRegular:pixelsize=10
  
 modules-center = cmus cava
+
+[bar/music-second]
+
+inherit = bar/base
+monitor = DP-1
+module-margin = 1
+offset-x = 16.15%
+offset-y = 0.5%
+width = 25%
+radius = 2
+
+
+font-0 = JetBrainsMonoNerdFont:pixelsize=8
+font-1 = FiraCodeRegular:pixelsize=10
+ 
+modules-center = cmus cava
+
 
 
 
@@ -180,7 +198,7 @@ module-margin = 1
 offset-x = 77.85%
 offset-y = 0.5%
 width = 9%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -201,7 +219,7 @@ module-margin = 1
 offset-x = 0.8%
 offset-y = 0.5%
 width = 2.05%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -220,7 +238,7 @@ module-margin = 1
 offset-x = 4.2%
 offset-y = 0.5%
 width = 11%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -239,7 +257,7 @@ module-margin = 1
 offset-x = 97.15%
 offset-y = 0.5%
 width = 2.05%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -259,7 +277,7 @@ module-margin = 1
 offset-x = 88%
 offset-y = 0.5%
 width = 8%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
@@ -279,7 +297,7 @@ module-margin = 1
 offset-x = 73.7%
 offset-y = 0.5%
 width = 3%
-radius = 6
+radius = 2
 
 
 font-0 = WenQuanYiMicroHei:size=12
