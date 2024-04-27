@@ -1,1 +1,0 @@
-polybar/launch-minimal.sh
