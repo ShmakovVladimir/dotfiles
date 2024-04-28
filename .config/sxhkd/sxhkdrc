@@ -49,7 +49,7 @@ super + alt + {q,r}
 
 # Файловый менеджер
 super + f
-	nautilus
+	nemo
 
 super + shift + f
 	rofi -show filebrowser

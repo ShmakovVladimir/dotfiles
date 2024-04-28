@@ -58,12 +58,7 @@ replace_string_in_file('/home/vladimir/.config/Code/User/settings.json',
                        vs_code_theme_names[new_theme.replace('\n', '')])
 replace_string_in_file('/home/vladimir/.config/zathura/zathurarc', now_name, new_theme)
 replace_string_in_file('/home/vladimir/bin/random_wallpaper', now_name, new_theme)
-replace_string_in_file('/home/vladimir/.var/app/org.mozilla.firefox/.mozilla/firefox/4fu5mgjd.default-release/chrome/includes/cascade-colours.css',
-                        now_name, 
-                        new_theme)
-replace_string_in_file('/home/vladimir/.var/app/org.mozilla.firefox/.mozilla/firefox/4fu5mgjd.default-release/chrome/userContent.css',
-                        now_name, 
-                        new_theme)
+
 replace_string_in_file('/home/vladimir/.config/nvim/init.lua',
                        nvim_config_string[now_name],
                        nvim_config_string[new_theme])

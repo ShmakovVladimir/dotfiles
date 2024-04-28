@@ -4,7 +4,7 @@
     "editor.inlineSuggest.showToolbar": "never",
     "workbench.editor.showTabs": "multiple",
     "workbench.statusBar.visible": false,
-    "editor.quickSuggestionsDelay": 100,
+    "editor.quickSuggestionsDelay": 1000,
     "latex-workshop.latex.recipe.default": "pdflatex",
     "latex-workshop.latex.recipes": [
         {
@@ -45,7 +45,7 @@
     "editor.minimap.enabled": false,
     "editor.lineHeight": 0,
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Catppuccin Latte",
     
     // we try to make semantic highlighting look good
     "editor.semanticHighlighting.enabled": true,
